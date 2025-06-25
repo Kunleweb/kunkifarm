@@ -28,7 +28,6 @@ const replacetemplate = (temp, product) => {
 };
 
 const server = http.createServer((req, res) =>{
-console.log(url.parse(req.url));
 const {query, pathname } = url.parse(req.url, true);
   // OVERVIEW PAGE 
 //   const pathName = url.parse(req.url)
